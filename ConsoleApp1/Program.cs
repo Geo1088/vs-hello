@@ -53,7 +53,7 @@ namespace Hello
             while (name == "") // TODO: perform checks to make sure the string isn't all whitespace, etc.
             {
                 Console.Write("Who to greet? ");
-                name = Console.ReadLine();
+                name = Console.ReadLine().Trim();
             }
             return name;
         }
